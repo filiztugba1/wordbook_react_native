@@ -1,0 +1,15 @@
+.blink-red {
+    animation: blink-red-animation 1s infinite;
+  }
+  
+  @keyframes blink-red-animation {
+    0% {
+      background-color: transparent;
+    }
+    50% {
+      background-color: red;
+    }
+    100% {
+      background-color: transparent;
+    }
+  }
